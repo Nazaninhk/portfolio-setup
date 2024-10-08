@@ -33,9 +33,14 @@ p{
   h1 {
     font-size: 96px;
   }
+  h2{
+    font-size: 64px;
+  }
   
   p {
     font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
   }
   
   .hero {
@@ -54,7 +59,7 @@ p{
   .hero h2 {
     font-family: var(--heading-font-family);
     font-weight: normal;
-    line-height: 2;
+    line-height: 1.5;
     font-size: 24px;
   }
   
@@ -66,4 +71,29 @@ p{
     line-height: 27px;
     padding: 15px 30px;
   }
-  
+
+  .btn-branding-outline{
+    border-radius: 4px;
+    color: var(--branding-color);
+    border: 1px solid var(--branding-color);
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+  }
+  @media (max-width:600px) {
+    h1{
+      font-size: 44px;
+      line-height: 1.5;
+    }
+
+h2{
+  text-align: center;
+  font-size: 40px;
+}
+.yougurt-part{ 
+  text-align: center;
+
+}
+
+    
+  }
